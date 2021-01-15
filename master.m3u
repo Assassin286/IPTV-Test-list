@@ -1,7 +1,3 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="Kabel.de" group-title="Vollprogramm" tvg-logo="https://raw.githubusercontent.com/dh4rry/kodiAddons/master/plugin.video.7tv_live/resources/Kabel1.png",Kabel1
-http://localhost:60666/?plugin://plugin.video.joyn/?channel_id=3
-#EXTINF:-1 tvg-id="Pro7.de" group-title="Vollprogramm" tvg-logo="https://raw.githubusercontent.com/dh4rry/kodiAddons/master/plugin.video.7tv_live/resources/Pro7.png",Pro7
-http://localhost:60666/?plugin://plugin.video.joyn/?movie_id=&block_id=&tv_show_id=&stream_type=LIVE&season_id=&client_data=%7B%22startTime%22%3A+0%2C+%22genre%22%3A+%5B%5D%2C+%22brand%22%3A+%22%22%2C+%22channelId%22%3A+%22kabeleins-de%22%2C+%22npa%22%3A+false%2C+%22videoId%22%3A+null%7D&viewtype=&compilation_id=&title=%5BB%5DKabel+Eins%5B%2FB%5D+-+Navy+CIS%3A+L.A&fav_type=&video_id=kabeleins-de&channel_id=&mode=play_video&channel_path=
-#EXTINF:-1 tvg-id="Sat1.de" group-title="Vollprogramm" tvg-logo="https://raw.githubusercontent.com/dh4rry/kodiAddons/master/plugin.video.7tv_live/resources/SAT1.png",SAT1
-http://localhost:60666/?plugin://plugin.video.joyn/?block_id&channel_id&channel_path&client_data&compilation_id&fav_type&mode=channels&movie_id&season_id&stream_type=LIVE&title=Live%20TV&tv_show_id&video_id&viewtype
+#EXTINF:-1, Kabel Eins
+plugin://plugin.video.zappntv/category/livestream/kabeleins_de
